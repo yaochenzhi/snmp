@@ -51,7 +51,7 @@ def cbFun(transportDispatcher, transportDomain, transportAddress, wholeMsg):
                     oid = string_valid_oid
                 if string_valid_val:
                     val = string_valid_val
-                row_msg = "{}: {}\n".format(oid, valid_val)
+                row_msg = "{}: {}\n".format(oid, val)
                 wework_msg += row_msg
 
             from wework import WeApp
